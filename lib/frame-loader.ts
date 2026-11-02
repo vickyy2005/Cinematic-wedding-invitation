@@ -131,13 +131,18 @@ export class FrameLoader {
         resolve(img);
         return;
       }
+      let resolved = false;
       const done = () => {
-        img.onload = null;
-        img.onerror = null;
-        resolve(img);
+        if (!resolved) {
+          resolved = true;
+          img.onload = null;
+          img.onerror = null;
+          resolve(img);
+        }
       };
       img.onload = done;
       img.onerror = done;
+      setTimeout(done, 1200);
     }).finally(() => {
       this.inFlight.delete(url);
     });
@@ -323,20 +328,12 @@ export class FrameLoader {
       const step = FRAME_CONFIG.frameStep || 2;
       const initialUrls: string[] = [];
 
-      // First scene full
+      // Preload first 10 frames of Scene 0 for instant start
       const s0 = SCENES[0];
       if (s0) {
-        for (let f = s0.startFrame; f <= s0.endFrame; f += step) {
+        const limit = Math.min(s0.startFrame + 10 * step, s0.endFrame);
+        for (let f = s0.startFrame; f <= limit; f += step) {
           initialUrls.push(getFrameUrl(s0.folder, f));
-        }
-      }
-
-      // Second scene head
-      const s1 = SCENES[1];
-      if (s1) {
-        const limit = Math.min(s1.startFrame + 40 * step, s1.endFrame);
-        for (let f = s1.startFrame; f <= limit; f += step) {
-          initialUrls.push(getFrameUrl(s1.folder, f));
         }
       }
 

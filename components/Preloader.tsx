@@ -40,7 +40,7 @@ export const Preloader: React.FC<PreloaderProps> = ({ onStartEnter, onComplete }
         setMusicReady(true);
         setIsReady(true);
       }
-    }, 15000);
+    }, 3000);
 
     const unsubVisuals = frameLoader.subscribeProgress((pct, msg) => {
       if (mounted) {
