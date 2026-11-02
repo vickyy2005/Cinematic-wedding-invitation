@@ -202,7 +202,7 @@ export const Preloader: React.FC<PreloaderProps> = ({ onStartEnter, onComplete }
         )}
 
         <p className="font-sans text-[10px] uppercase tracking-widest text-ivory-warm/40 mt-12">
-          18 • 20 • 21 October 2026
+          21 • 23 • 24 November 2026
         </p>
       </div>
     </div>

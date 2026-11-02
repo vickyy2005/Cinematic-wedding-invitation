@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "Nisarg Weds Khushi Wedding",
     "Indian Royal Wedding",
     "Celebration of Love & Happiness",
-    "October 2026",
+    "November 2026",
   ],
   icons: {
     icon: "/assets/logo/nk-locked-logo.png",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Nisarg Weds Khushi - A Celebration of Love & Happiness",
-    description: "A cinematic journey through our wedding celebrations. 18 • 20 • 21 October 2026.",
+    description: "A cinematic journey through our wedding celebrations. 21 • 23 • 24 November 2026.",
     images: ["/assets/logo/nk-locked-logo.png"],
   },
 };

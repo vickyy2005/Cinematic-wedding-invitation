@@ -10,7 +10,7 @@ interface CelebrationsScreenProps {
   onReplayJourney: () => void;
 }
 
-const TARGET_WEDDING_DATE = new Date("2026-10-18T09:30:00+05:30").getTime();
+const TARGET_WEDDING_DATE = new Date("2026-11-21T09:30:00+05:30").getTime();
 
 export const CelebrationsScreen: React.FC<CelebrationsScreenProps> = ({ onReplayJourney }) => {
   const [countdown, setCountdown] = useState({
@@ -164,11 +164,11 @@ export const CelebrationsScreen: React.FC<CelebrationsScreenProps> = ({ onReplay
           </p>
 
           <div className="flex items-center gap-3 text-[clamp(0.8rem,3.25vw,1rem)] font-sans tracking-luxury uppercase text-ivory-warm/90 font-medium">
-            <span>18 Oct</span>
+            <span>21 Nov</span>
             <span className="text-gold">•</span>
-            <span>20 Oct</span>
+            <span>23 Nov</span>
             <span className="text-gold">•</span>
-            <span>21 Oct 2026</span>
+            <span>24 Nov 2026</span>
           </div>
 
           <button
@@ -197,7 +197,7 @@ export const CelebrationsScreen: React.FC<CelebrationsScreenProps> = ({ onReplay
             </h2>
             <div className="w-20 h-[1.5px] bg-gradient-to-r from-transparent via-gold to-transparent mx-auto mt-2.5 mb-2.5" />
             <p className="font-sans text-[clamp(0.8rem,3.25vw,0.95rem)] text-ivory-warm/80">
-              Until the sacred festivities commence on 18 October 2026
+              Until the sacred festivities commence on 21 November 2026
             </p>
           </div>
 
@@ -423,7 +423,7 @@ export const CelebrationsScreen: React.FC<CelebrationsScreenProps> = ({ onReplay
 
           <div className="w-20 h-[1px] bg-gradient-to-r from-transparent via-gold/40 to-transparent mb-3.5" />
           <p className="font-sans text-xs tracking-widest text-ivory-warm/60 uppercase font-medium">
-            18 • 20 • 21 October 2026
+            21 • 23 • 24 November 2026
           </p>
         </div>
       </footer>

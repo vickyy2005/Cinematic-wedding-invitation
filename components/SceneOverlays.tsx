@@ -181,7 +181,7 @@ export const SceneOverlays: React.FC<SceneOverlaysProps> = ({
                   style={{ transformStyle: "preserve-3d" }}
                   className="font-serif font-black text-[clamp(1.5rem,7vw,4.5rem)] text-[#2A1713] tracking-wide text-center leading-[1.12] drop-shadow-[0_2px_10px_rgba(255,248,240,0.95)] [-webkit-text-stroke:0.7px_#2A1713]"
                 >
-                  Dilip N. Thakkar and Family
+                  Virat H. Rajoriya and Family
                 </motion.h1>
                 <motion.p
                   variants={vInvite}
@@ -216,7 +216,7 @@ export const SceneOverlays: React.FC<SceneOverlaysProps> = ({
                   variants={vCommon}
                   className="font-sans font-extrabold text-[clamp(0.6875rem,2.8vw,1rem)] tracking-[0.35em] text-[#FFF4E3] uppercase drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)] mt-0.5"
                 >
-                  18 — 21 OCTOBER 2026
+                  21 — 24 NOVEMBER 2026
                 </motion.p>
               </div>
             )}
@@ -238,7 +238,7 @@ export const SceneOverlays: React.FC<SceneOverlaysProps> = ({
                       variants={vCommon}
                       className="font-sans font-extrabold text-[clamp(0.75rem,3.25vw,1.125rem)] tracking-[0.35em] text-[#FFF4E3] uppercase drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]"
                     >
-                      18 OCTOBER 2026
+                      21 NOVEMBER 2026
                     </motion.p>
                     <motion.div
                       variants={vCommon}
@@ -328,7 +328,7 @@ export const SceneOverlays: React.FC<SceneOverlaysProps> = ({
                     variants={vCommon}
                     className="font-sans font-extrabold text-[clamp(0.75rem,3.25vw,1.125rem)] tracking-[0.35em] text-[#FFF4E3] uppercase drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]"
                   >
-                    18 OCTOBER 2026
+                    21 NOVEMBER 2026
                   </motion.p>
                   <motion.div
                     variants={vCommon}
@@ -395,7 +395,7 @@ export const SceneOverlays: React.FC<SceneOverlaysProps> = ({
                     variants={vCommon}
                     className="font-sans font-extrabold text-[clamp(0.75rem,3.25vw,1.125rem)] tracking-[0.35em] text-[#FFF4E3] uppercase drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]"
                   >
-                    20 OCTOBER 2026
+                    23 NOVEMBER 2026
                   </motion.p>
                   <motion.div
                     variants={vCommon}
@@ -462,7 +462,7 @@ export const SceneOverlays: React.FC<SceneOverlaysProps> = ({
                     variants={vCommon}
                     className="font-sans font-extrabold text-[clamp(0.75rem,3.25vw,1.125rem)] tracking-[0.35em] text-[#FFF4E3] uppercase drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]"
                   >
-                    20 OCTOBER 2026
+                    23 NOVEMBER 2026
                   </motion.p>
                   <motion.div
                     variants={vCommon}
@@ -522,7 +522,7 @@ export const SceneOverlays: React.FC<SceneOverlaysProps> = ({
                     variants={vCommon}
                     className="font-sans font-extrabold text-[clamp(0.75rem,3.25vw,1.125rem)] tracking-[0.35em] text-[#FFF4E3] uppercase drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]"
                   >
-                    21 OCTOBER 2026
+                    24 NOVEMBER 2026
                   </motion.p>
                   <motion.div
                     variants={vCommon}

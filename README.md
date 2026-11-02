@@ -65,5 +65,5 @@ Open [`types/wedding.ts`](types/wedding.ts):
 ### 4. Countdown Target Date
 Open [`components/CelebrationsScreen.tsx`](components/CelebrationsScreen.tsx) and change `TARGET_WEDDING_DATE`:
 ```typescript
-const TARGET_WEDDING_DATE = new Date("2026-10-18T09:30:00+05:30").getTime();
+const TARGET_WEDDING_DATE = new Date("2026-11-21T09:30:00+05:30").getTime();
 ```
